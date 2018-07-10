@@ -1,0 +1,38 @@
+/************BODY************/
+body {
+  font-family: 'Yantramanav', sans-serif;
+  background-color: #113e4c;
+  width: 1400px;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 800px;
+}
+
+#portfolio {
+  height: 1550px;
+}
+
+#about {
+  height: 550px;
+}
+
+#contact {
+  height: 400px;
+}
+
+.full-width {
+  width: 1200px;
+}
+
+.half-width {
+  width:600px;
+}
+
+.third-width {
+  width: 400px;
+}
+
+/***************HEADER***************/
