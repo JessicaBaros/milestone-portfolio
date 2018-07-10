@@ -24,8 +24,9 @@ body {
 }
 
 .half-width {
-  width:600px;
+  width:300px;
   float:left;
+  margin:auto;
 }
 
 .third-width {
@@ -82,11 +83,41 @@ h2 span {
 }
 /***********Portfolio*************/
 
-#portfolio img {
+/*#portfolio img {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
+}*/
+
+#j {
+  width: 100%;
+  height: auto;
+}
+#jd, #hd {
+  text-align: right;
+  margin-left: 50px;
+  margin-right: 25px;
+  width: 500px;
+}
+
+#jp img, #hp img {
+   display: block;
+   width: 300px;
+   margin-left: 50px;
+ }
+
+#rp img {
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+#rd {
+  text-align: left;
+  margin-right: auto;
+  margin-left: 25px;
 
 }
 /*****************ABOUT************/
