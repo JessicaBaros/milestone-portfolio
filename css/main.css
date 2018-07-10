@@ -20,6 +20,7 @@ body {
 .full-width {
   width: 100%;
   margin:0 auto;
+  clear: both;
 }
 
 .half-width {
@@ -34,6 +35,14 @@ body {
 #button {
   float: right;
 }
+
+main h1, footer h1 {
+  color: #db504a;
+  font-family: 'Comfortaa',bold;
+  font-size: 36pt;
+  text-align: center;
+  text-transform:lowercase;
+}
 /***************HEADER***************/
 header {
   background:url('../img/slot-canyon-img.png');
@@ -41,10 +50,43 @@ header {
   height: 800px;
 }
 
+header h1{
+  color: #ffffff;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+header nav {
+  float: right;
+}
+
+ header nav li {
+   display: inline-block;
+ }
+header nav a {
+
+  color: #e8c663;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  padding-left: 50px;
+}
+header h2 {
+  font-family: 'Comfortaa',bold;
+  font-size: 72px;
+  padding-top: 350px;
+}
+
+h2 span {
+  color: #db504a;
+}
 /***********Portfolio*************/
+
 #portfolio img {
-  width: 50%;
-  border-radius:10%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
 
 }
 /*****************ABOUT************/
@@ -53,29 +95,18 @@ header {
   background-size: cover;
   clear: both;
 }
-#about h1 {
-  color: #db504a;
-  font-family: 'Comfortaa',bold;
-  font-size: 36pt;
-  text-align: center;
-  text-transform:lowercase;
-}
+
 #about h2 {
   font-family: 'Slabo 27px', serif;
   font-weight: normal;
 }
 
 /****************footer************/
-footer h1 {
-  color: #db504a;
-  font-family: 'Comfortaa',bold;
-  font-size: 36pt;
-  text-align: center;
-  text-transform:lowercase;
-}
 
 footer h2 {
     color: #e8c663;
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
     text-align: center;
 }
 
