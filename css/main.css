@@ -3,11 +3,6 @@ body {
   background-color: #113e4c;
   color: #ffffff;
   font-family: 'Yantramanav', sans-serif;
-  width: 1400px;
-}
-
-header {
-  height: 800px;
 }
 
 #portfolio {
@@ -23,7 +18,8 @@ header {
 }
 
 .full-width {
-  width: 1200px;
+  width: 100%;
+  margin:0 auto;
 }
 
 .half-width {
@@ -41,51 +37,20 @@ header {
 /***************HEADER***************/
 header {
   background:url('../img/slot-canyon-img.png');
+  background-size: cover;
+  height: 800px;
 }
+
 /***********Portfolio*************/
-#portfolio h1 {
-  color: #db504a;
-  font-family: 'Comfortaa',bold;
-  font-size: 36pt;
-  text-align: center;
-  text-transform:lowercase;
-}
-#portfolio h2 {
-  color: #e8c663;
-  font-family: 'Slabo 27px', serif;
-}
-
-#portfolio h2 a {
-  color: #e8c663;
-  text-decoration: none;
-}
-
-#portfolio h3 {
-  color: #e8c663;
-
-}
-
-#jubilee, #rougue, #holstee {
-  background-color: #4cb297;
-  padding: 10px;
-  margin: 10px;
-  width: 500px;
-}
-
-#rogue {
-  clear: both;
-}
-
 #portfolio img {
-  border-radius: 10px, solid;
-  border-color: #4cb297;
   width: 50%;
-  width: 50%;
-}
+  border-radius:10%;
 
+}
 /*****************ABOUT************/
 #about {
   background-image:url('../img/red-rocks-img.png');
+  background-size: cover;
   clear: both;
 }
 #about h1 {
@@ -99,12 +64,9 @@ header {
   font-family: 'Slabo 27px', serif;
   font-weight: normal;
 }
-#about h2, #about p {
-  margin-left: 100px;
-}
 
-/****************CONTACT************/
-#contact h1 {
+/****************footer************/
+footer h1 {
   color: #db504a;
   font-family: 'Comfortaa',bold;
   font-size: 36pt;
@@ -112,17 +74,17 @@ header {
   text-transform:lowercase;
 }
 
-#contact h2 {
+footer h2 {
     color: #e8c663;
     text-align: center;
 }
 
-#contact p {
+footer p {
   text-align: center;
 }
 
-#contact li {
+footer li {
   display: inline-block;
   text-align: center;
-  padding-left: 50px;
+  padding-left: 40px;
 }
