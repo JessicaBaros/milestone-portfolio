@@ -3,10 +3,11 @@ body {
   background-color: #113e4c;
   color: #ffffff;
   font-family: 'Yantramanav', sans-serif;
+  font-size: 20px;
 }
 
 #portfolio {
-  height: 1550px;
+  height: 1400px;
 }
 
 #about {
@@ -21,12 +22,6 @@ body {
   width: 100%;
   margin:0 auto;
   clear: both;
-}
-
-.half-width {
-  width:300px;
-  float:left;
-  margin:auto;
 }
 
 .third-width {
@@ -45,6 +40,11 @@ main h1, footer h1 {
   text-transform:lowercase;
 }
 /***************HEADER***************/
+
+.half {
+  width: 600px;
+  float: left;
+}
 header {
   background:url('../img/slot-canyon-img.png');
   background-size: cover;
@@ -56,6 +56,7 @@ header h1{
   font-family: 'Slabo 27px', serif;
   font-size: 30px;
   font-weight: normal;
+  margin-left: 30px;
 }
 
 header nav {
@@ -70,7 +71,7 @@ header nav a {
   color: #e8c663;
   font-family: 'Slabo 27px', serif;
   font-size: 30px;
-  padding-left: 50px;
+  padding-left: 30px;
 }
 header h2 {
   font-family: 'Comfortaa',bold;
@@ -83,48 +84,55 @@ h2 span {
 }
 /***********Portfolio*************/
 
-/*#portfolio img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
-}*/
-
-#j {
-  width: 100%;
-  height: auto;
-}
-#jd, #hd {
+.left {
+  float: left;
+  margin-left: 300px;
+  margin-right: 25px;
   text-align: right;
-  margin-left: 50px;
-  margin-right: 25px;
-  width: 500px;
-}
-
-#jp img, #hp img {
-   display: block;
-   width: 300px;
-   margin-left: 50px;
- }
-
-#rp img {
-  display: block;
   width: 300px;
-  margin-left: auto;
-  margin-right: 25px;
 }
 
-#rd {
-  text-align: left;
-  margin-right: auto;
+.left img {
+  width: 300px;
+
+  margin-top: 60px;
+}
+
+.right {
+  float: left;
   margin-left: 25px;
+  margin-right: 300px;
+  width: 300px;
+  text-align:left;
+}
+
+.right img {
+  width: 300px;
 
 }
+
+.left h2 a, .right h2 a {
+  color: #e8c663;
+  font-family: 'Slabo 27px', serif;
+  font-size: 34px;
+  text-align: center;
+}
+.left h3, .right h3 {
+  font-family: 'Comfortaa',bold;
+  text-transform: uppercase;
+}
+
+.left a, .right a {
+  color: #e8c663;
+  text-decoration: none;
+}
+
 /*****************ABOUT************/
 #about {
   background-image:url('../img/red-rocks-img.png');
   background-size: cover;
   clear: both;
+  padding-top: 15px;
 }
 
 #about h2 {
