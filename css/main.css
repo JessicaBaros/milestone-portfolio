@@ -166,3 +166,11 @@ footer li {
   text-align: center;
   padding-left: 40px;
 }
+
+/**************JavaScript Projects*************/
+#javascript h2 {
+  color: #e8c663;
+  font-family: 'Slabo 27px', serif;
+  font-size: 34px;
+  text-align: center;
+}
